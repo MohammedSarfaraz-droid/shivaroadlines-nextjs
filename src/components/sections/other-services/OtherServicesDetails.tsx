@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { Reveal } from "@/components/motion/Reveal";
 
 export function OtherServicesDetails() {
@@ -53,10 +54,15 @@ export function OtherServicesDetails() {
             </div>
 
             <div className="lg:col-span-4 order-1 lg:order-2">
-              <div
-                className="h-80 sm:h-96 w-full rounded-lg shadow-lg bg-cover bg-center border-2 border-white/20"
-                style={{ backgroundImage: "url('/images/all-petrolium.jpg')" }}
-              />
+              <div className="relative h-80 sm:h-96 w-full rounded-lg shadow-lg overflow-hidden border-2 border-white/20">
+                <Image
+                  src="/images/all-petrolium.webp"
+                  alt="All Petroleum Products Transportation"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 33vw"
+                  className="object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </Reveal>

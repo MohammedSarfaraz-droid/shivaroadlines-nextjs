@@ -8,18 +8,18 @@ interface ClientLogo {
 }
 
 const clients: ClientLogo[] = [
-  { id: 1, image: "/images/client-1.png", alt: "Client 1" },
-  { id: 2, image: "/images/client-2.png", alt: "Client 2" },
-  { id: 3, image: "/images/client-3.png", alt: "Client 3" },
-  { id: 4, image: "/images/client-4.png", alt: "Client 4" },
-  { id: 5, image: "/images/client-5.png", alt: "Client 5" },
-  { id: 6, image: "/images/client-6.png", alt: "Client 6" },
-  { id: 7, image: "/images/client-7.png", alt: "Client 7" },
-  { id: 8, image: "/images/client-8.png", alt: "Client 8" },
-  { id: 9, image: "/images/client-9.png", alt: "Client 9" },
-  { id: 10, image: "/images/client-10.png", alt: "Client 10" },
-  { id: 11, image: "/images/client-11.png", alt: "Client 11" },
-  { id: 12, image: "/images/client-12.png", alt: "Client 12" },
+  { id: 1, image: "/images/client-1.webp", alt: "Client 1" },
+  { id: 2, image: "/images/client-2.webp", alt: "Client 2" },
+  { id: 3, image: "/images/client-3.webp", alt: "Client 3" },
+  { id: 4, image: "/images/client-4.webp", alt: "Client 4" },
+  { id: 5, image: "/images/client-5.webp", alt: "Client 5" },
+  { id: 6, image: "/images/client-6.webp", alt: "Client 6" },
+  { id: 7, image: "/images/client-7.webp", alt: "Client 7" },
+  { id: 8, image: "/images/client-8.webp", alt: "Client 8" },
+  { id: 9, image: "/images/client-9.webp", alt: "Client 9" },
+  { id: 10, image: "/images/client-10.webp", alt: "Client 10" },
+  { id: 11, image: "/images/client-11.webp", alt: "Client 11" },
+  { id: 12, image: "/images/client-12.webp", alt: "Client 12" },
 ];
 
 import { Reveal, StaggerGroup, StaggerItem } from "@/components/motion";

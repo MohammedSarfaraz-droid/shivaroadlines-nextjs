@@ -1,14 +1,20 @@
 import React from "react";
+import Image from "next/image";
 
 export function HomeContact() {
   return (
     <section className="w-full bg-white">
       <div className="grid grid-cols-1 lg:grid-cols-2 min-h-125">
         {/* Image */}
-        <div
-          className="h-80 lg:h-auto bg-cover bg-center order-1 lg:order-2"
-          style={{ backgroundImage: "url('/images/hero-5.jpeg')" }}
-        />
+        <div className="relative h-80 lg:h-auto min-h-80 overflow-hidden order-1 lg:order-2">
+          <Image
+            src="/images/hero-5.webp"
+            alt="Shiva Roadlines Contact Logistics"
+            fill
+            sizes="(max-width: 1024px) 100vw, 50vw"
+            className="object-cover object-center"
+          />
+        </div>
 
         {/* Text */}
         <div className="p-8 sm:p-12 lg:p-16 order-2 lg:order-1 flex flex-col justify-center">

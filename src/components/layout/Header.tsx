@@ -155,7 +155,7 @@ export function Header() {
             <div className="shrink-0 min-w-0">
               <Link href="/" className="inline-block max-w-full">
                 <Image
-                  src="/images/logo2.jpeg"
+                  src="/images/logo2.webp"
                   alt="Shiva Road Lines Logo"
                   width={240}
                   height={64}
@@ -329,7 +329,7 @@ export function Header() {
                 <div className="py-6 text-center">
                   <Link href="/" onClick={() => setMobileMenuOpen(false)}>
                     <Image
-                      src="/images/logo2.jpeg"
+                      src="/images/logo2.webp"
                       alt="Shiva Roadlines Logo"
                       width={200}
                       height={55}
@@ -375,9 +375,8 @@ export function Header() {
                         aria-label="Toggle services submenu"
                       >
                         <svg
-                          className={`w-4 h-4 transition-transform ${
-                            mobileServicesOpen ? "rotate-180" : ""
-                          }`}
+                          className={`w-4 h-4 transition-transform ${mobileServicesOpen ? "rotate-180" : ""
+                            }`}
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"

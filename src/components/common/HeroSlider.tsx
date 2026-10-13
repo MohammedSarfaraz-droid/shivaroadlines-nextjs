@@ -11,7 +11,7 @@ interface Slide {
 
 const slides: Slide[] = [
   {
-    image: "/images/hero-3.jpeg",
+    image: "/images/hero-3.webp",
     title: (
       <>
         Fleet Owners & Transport Contractor for all{" "}
@@ -20,7 +20,7 @@ const slides: Slide[] = [
     ),
   },
   {
-    image: "/images/hero-4.jpeg",
+    image: "/images/hero-4.webp",
     title: (
       <>
         Authorised Contractor for IOCL, HPCL, BPCL, of{" "}
@@ -59,9 +59,8 @@ export function HeroSlider() {
         return (
           <div
             key={index}
-            className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-              index === current ? "opacity-100 z-10" : "opacity-0 z-0 pointer-events-none"
-            }`}
+            className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === current ? "opacity-100 z-10" : "opacity-0 z-0 pointer-events-none"
+              }`}
           >
             {/* LCP Optimized Slide Image */}
             <Image
@@ -129,9 +128,8 @@ export function HeroSlider() {
           <button
             key={idx}
             onClick={() => setCurrent(idx)}
-            className={`w-3 h-3 rounded-full transition-all ${
-              idx === current ? "bg-white scale-125" : "bg-white/50 hover:bg-white/80"
-            }`}
+            className={`w-3 h-3 rounded-full transition-all ${idx === current ? "bg-white scale-125" : "bg-white/50 hover:bg-white/80"
+              }`}
             aria-label={`Go to slide ${idx + 1}`}
           />
         ))}

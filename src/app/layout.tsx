@@ -41,9 +41,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "A. Rai" }],
   icons: {
-    icon: "/images/favicon2.png",
-    shortcut: "/images/favicon2.png",
-    apple: "/images/favicon2.png",
+    icon: "/images/favicon2.webp",
+    shortcut: "/images/favicon2.webp",
+    apple: "/images/favicon2.webp",
   },
   openGraph: {
     title: "Shiva Petroleum Transportation",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     siteName: "Shiva Roadlines",
     images: [
       {
-        url: "/images/logo2.jpeg",
+        url: "/images/logo2.webp",
         width: 600,
         height: 200,
         alt: "Shiva Petroleum Logo",
@@ -110,9 +110,9 @@ export default function RootLayout({
       <head>
         <link
           rel="preload"
-          href="/images/hero-3.jpeg"
+          href="/images/hero-3.webp"
           as="image"
-          type="image/jpeg"
+          type="image/webp"
           fetchPriority="high"
         />
         <script

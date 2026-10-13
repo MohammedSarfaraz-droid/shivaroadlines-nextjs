@@ -165,7 +165,7 @@ export function Testimonials() {
                     >
                       <div className="hidden sm:block shrink-0">
                         <Image
-                          src="/images/avatar.png"
+                          src="/images/avatar.webp"
                           alt={item.author}
                           width={70}
                           height={70}
@@ -200,11 +200,10 @@ export function Testimonials() {
                 type="button"
                 onClick={() => setCurrentSlide(idx)}
                 aria-label={`Go to slide ${idx + 1}`}
-                className={`transition-all duration-300 rounded-full ${
-                  currentSlide === idx
+                className={`transition-all duration-300 rounded-full ${currentSlide === idx
                     ? "w-8 h-2.5 bg-linear-to-r from-[#0A1B33] to-[#134063]"
                     : "w-2.5 h-2.5 bg-gray-300 hover:bg-gray-400"
-                }`}
+                  }`}
               />
             ))}
           </div>

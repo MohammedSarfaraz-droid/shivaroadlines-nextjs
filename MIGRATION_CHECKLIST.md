@@ -4,15 +4,15 @@
 
 | Original File | Intended Next.js Route | Page Purpose | Key Assets / Dependencies | Status |
 |---|---|---|---|---|
-| `index.html` | `/` (and redirects for `/index.html`) | Homepage with Hero carousel, Intro, Services overview, About preview, Testimonials, Contact banner | `hero-3.jpeg`, `hero-4.jpeg`, `lube-oil.jpg`, `coal-tar.jpg`, `ethanol-oil.jpg`, `all-petrolium.jpg`, `hero-2.jpeg`, `avatar.png`, `hero-5.jpeg`, `logo2.jpeg` | **Verified (200 OK)** |
-| `about.html` | `/about` (and redirects for `/about.html`) | Company Profile, Leadership & Legacy, Vision, Mission, Company History | `hero-1.jpeg`, `logo2.jpeg` | **Verified (200 OK)** |
-| `services.html` | `/services` (and redirects for `/services.html`) | Comprehensive Services overview (Lube Oil, Coal Tar, Ethanol, Other Services list) | `lube-oil.jpg`, `coal-tar.jpg`, `ethanol-oil.jpg`, `all-petrolium.jpg`, `logo2.jpeg` | **Verified (200 OK)** |
-| `coal-tar-transportation.html` | `/coal-tar-transportation` (and redirect) | Detailed Coal Tar Transportation Service Page | `coal-tar.jpg`, `logo2.jpeg` | **Verified (200 OK)** |
-| `ethanol-transportation.html` | `/ethanol-transportation` (and redirect) | Detailed Ethanol Transportation Service Page | `ethanol-oil.jpg`, `logo2.jpeg` | **Verified (200 OK)** |
-| `lube-oil-transportation.html` | `/lube-oil-transportation` (and redirect) | Detailed Lube Oil Transportation Service Page | `lube-oil.jpg`, `logo2.jpeg` | **Verified (200 OK)** |
-| `other-services.html` | `/other-services` (and redirect) | Other Services & Products (LSHS, Bitumen, Base Oil, Naphtha, MTO, etc.) | `all-petrolium.jpg`, `logo2.jpeg` | **Verified (200 OK)** |
-| `clients.html` | `/clients` (and redirects for `/clients.html`) | Clients showcase with 12 client logos and IOCL/HPCL/BPCL accreditation | `client-1.png` through `client-12.png`, `logo2.jpeg` | **Verified (200 OK)** |
-| `contact.html` | `/contact` (and redirects for `/contact.html`) | Contact & Office Directory (Head Office Navi Mumbai, Operational Offices, International Office) | `logo2.jpeg` | **Verified (200 OK)** |
+| `index.html` | `/` (and redirects for `/index.html`) | Homepage with Hero carousel, Intro, Services overview, About preview, Testimonials, Contact banner | `hero-3.webp`, `hero-4.webp`, `lube-oil.webp`, `coal-tar.webp`, `ethanol-oil.webp`, `all-petrolium.webp`, `hero-2.webp`, `avatar.webp`, `hero-5.webp`, `logo2.webp` | **Verified (200 OK)** |
+| `about.html` | `/about` (and redirects for `/about.html`) | Company Profile, Leadership & Legacy, Vision, Mission, Company History | `hero-1.webp`, `logo2.webp` | **Verified (200 OK)** |
+| `services.html` | `/services` (and redirects for `/services.html`) | Comprehensive Services overview (Lube Oil, Coal Tar, Ethanol, Other Services list) | `lube-oil.webp`, `coal-tar.webp`, `ethanol-oil.webp`, `all-petrolium.webp`, `logo2.webp` | **Verified (200 OK)** |
+| `coal-tar-transportation.html` | `/coal-tar-transportation` (and redirect) | Detailed Coal Tar Transportation Service Page | `coal-tar.webp`, `logo2.webp` | **Verified (200 OK)** |
+| `ethanol-transportation.html` | `/ethanol-transportation` (and redirect) | Detailed Ethanol Transportation Service Page | `ethanol-oil.webp`, `logo2.webp` | **Verified (200 OK)** |
+| `lube-oil-transportation.html` | `/lube-oil-transportation` (and redirect) | Detailed Lube Oil Transportation Service Page | `lube-oil.webp`, `logo2.webp` | **Verified (200 OK)** |
+| `other-services.html` | `/other-services` (and redirect) | Other Services & Products (LSHS, Bitumen, Base Oil, Naphtha, MTO, etc.) | `all-petrolium.webp`, `logo2.webp` | **Verified (200 OK)** |
+| `clients.html` | `/clients` (and redirects for `/clients.html`) | Clients showcase with 12 client logos and IOCL/HPCL/BPCL accreditation | `client-1.webp` through `client-12.webp`, `logo2.webp` | **Verified (200 OK)** |
+| `contact.html` | `/contact` (and redirects for `/contact.html`) | Contact & Office Directory (Head Office Navi Mumbai, Operational Offices, International Office) | `logo2.webp` | **Verified (200 OK)** |
 
 ---
 
