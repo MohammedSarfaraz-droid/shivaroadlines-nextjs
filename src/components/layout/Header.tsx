@@ -65,6 +65,12 @@ export function Header() {
     pathname === "/lube-oil-transportation" ||
     pathname === "/coal-tar-transportation" ||
     pathname === "/ethanol-transportation" ||
+    pathname === "/chemical-transportation" ||
+    pathname === "/bunkering-transportation" ||
+    pathname === "/water-tanker-transporting" ||
+    pathname === "/ss-tanker" ||
+    pathname === "/lenghty-tanker" ||
+    pathname === "/lpg-tanker" ||
     pathname === "/other-services";
 
   return (
@@ -213,28 +219,64 @@ export function Header() {
                 </Link>
 
                 {servicesDropdownOpen && (
-                  <div className="absolute top-full left-0 w-64 bg-white shadow-xl rounded-md border border-gray-100 py-2 z-50 animate-fadeIn">
+                  <div className="absolute top-full left-0 w-72 bg-white shadow-xl rounded-md border border-gray-100 py-2 z-50 animate-fadeIn max-h-[80vh] overflow-y-auto">
                     <Link
                       href="/lube-oil-transportation"
-                      className="block px-4 py-2.5 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-[#b22234] transition-colors"
+                      className="block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-[#b22234] transition-colors"
                     >
                       Lube Oil Transportation
                     </Link>
                     <Link
                       href="/coal-tar-transportation"
-                      className="block px-4 py-2.5 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-[#b22234] transition-colors"
+                      className="block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-[#b22234] transition-colors"
                     >
                       Coal Tar Transportation
                     </Link>
                     <Link
                       href="/ethanol-transportation"
-                      className="block px-4 py-2.5 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-[#b22234] transition-colors"
+                      className="block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-[#b22234] transition-colors"
                     >
                       Ethanol Transportation
                     </Link>
                     <Link
+                      href="/chemical-transportation"
+                      className="block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-[#b22234] transition-colors"
+                    >
+                      Chemical Transportation
+                    </Link>
+                    <Link
+                      href="/bunkering-transportation"
+                      className="block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-[#b22234] transition-colors"
+                    >
+                      Bunkering Transportation
+                    </Link>
+                    <Link
+                      href="/water-tanker-transporting"
+                      className="block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-[#b22234] transition-colors"
+                    >
+                      Water Tanker Transporting
+                    </Link>
+                    <Link
+                      href="/ss-tanker"
+                      className="block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-[#b22234] transition-colors"
+                    >
+                      SS Tanker Transportation
+                    </Link>
+                    <Link
+                      href="/lenghty-tanker"
+                      className="block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-[#b22234] transition-colors"
+                    >
+                      Lengthy Tanker Transportation
+                    </Link>
+                    <Link
+                      href="/lpg-tanker"
+                      className="block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-[#b22234] transition-colors"
+                    >
+                      LPG Tanker Transportation
+                    </Link>
+                    <Link
                       href="/other-services"
-                      className="block px-4 py-2.5 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-[#b22234] transition-colors"
+                      className="block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-[#b22234] transition-colors border-t border-gray-100 mt-1 pt-2"
                     >
                       Other Services
                     </Link>
@@ -424,6 +466,60 @@ export function Header() {
                               className="block py-1 text-gray-600 hover:text-[#b22234]"
                             >
                               Ethanol Transportation
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              href="/chemical-transportation"
+                              onClick={() => setMobileMenuOpen(false)}
+                              className="block py-1 text-gray-600 hover:text-[#b22234]"
+                            >
+                              Chemical Transportation
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              href="/bunkering-transportation"
+                              onClick={() => setMobileMenuOpen(false)}
+                              className="block py-1 text-gray-600 hover:text-[#b22234]"
+                            >
+                              Bunkering Transportation
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              href="/water-tanker-transporting"
+                              onClick={() => setMobileMenuOpen(false)}
+                              className="block py-1 text-gray-600 hover:text-[#b22234]"
+                            >
+                              Water Tanker Transporting
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              href="/ss-tanker"
+                              onClick={() => setMobileMenuOpen(false)}
+                              className="block py-1 text-gray-600 hover:text-[#b22234]"
+                            >
+                              SS Tanker Transportation
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              href="/lenghty-tanker"
+                              onClick={() => setMobileMenuOpen(false)}
+                              className="block py-1 text-gray-600 hover:text-[#b22234]"
+                            >
+                              Lengthy Tanker Transportation
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              href="/lpg-tanker"
+                              onClick={() => setMobileMenuOpen(false)}
+                              className="block py-1 text-gray-600 hover:text-[#b22234]"
+                            >
+                              LPG Tanker Transportation
                             </Link>
                           </li>
                           <li>

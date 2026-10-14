@@ -4,6 +4,8 @@ import { TickerMarquee } from "@/components/common/TickerMarquee";
 import { PromoBanner } from "@/components/common/PromoBanner";
 import { CoalTarDetails } from "@/components/sections/coal-tar-transportation/CoalTarDetails";
 
+import { OtherServicesNav } from "@/components/sections/services/OtherServicesNav";
+
 export const metadata: Metadata = {
   title: "Coal Tar Transportation",
   description:
@@ -17,6 +19,7 @@ export default function CoalTarTransportationPage() {
   return (
     <div>
       <CoalTarDetails />
+      <OtherServicesNav currentHref="/coal-tar-transportation" />
       <TickerMarquee isRed={true} bgGradient={false} />
       <PromoBanner variant="gradient" size="md">
         <h2 className="text-xl sm:text-2xl md:text-3xl font-light leading-relaxed text-white">

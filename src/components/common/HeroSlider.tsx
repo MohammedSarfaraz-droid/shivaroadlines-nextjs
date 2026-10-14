@@ -75,7 +75,7 @@ export function HeroSlider() {
             />
 
             {/* Dark Overlay matching original site-blocks-cover overlay */}
-            <div className="absolute inset-0 bg-black/35 backdrop-brightness-75 z-10" />
+            <div className="absolute inset-0 bg-black/5 backdrop-brightness-75 z-10" />
 
             {/* Content */}
             <div className="relative z-20 h-full max-w-5xl mx-auto px-4 sm:px-6 flex flex-col justify-center items-center text-center">

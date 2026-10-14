@@ -22,6 +22,36 @@ const SERVICES = [
     desc: "Explosive-grade, licensed petroleum tankers ensuring safe delivery.",
   },
   {
+    title: "Chemical Transportation",
+    href: "/chemical-transportation",
+    desc: "Certified SS & MS tankers for hazardous & non-hazardous chemical loads.",
+  },
+  {
+    title: "Bunkering Transportation",
+    href: "/bunkering-transportation",
+    desc: "Direct port berth and offshore marine fuel delivery (VLSFO, HFHSD, MGO).",
+  },
+  {
+    title: "Water Tanker Transporting",
+    href: "/water-tanker-transporting",
+    desc: "Bulk potable drinking water and high-purity industrial DM water supply.",
+  },
+  {
+    title: "SS Tanker Transportation",
+    href: "/ss-tanker",
+    desc: "Premium SS 304/316 tankers for reactive chemicals & food-grade purity.",
+  },
+  {
+    title: "Lengthy Tanker Transportation",
+    href: "/lenghty-tanker",
+    desc: "High-capacity multi-axle tankers maximizing volume and payload efficiency.",
+  },
+  {
+    title: "LPG Tanker Transportation",
+    href: "/lpg-tanker",
+    desc: "PESO-certified pressurized bullet tankers for safe gas transit.",
+  },
+  {
     title: "Other Services",
     href: "/other-services",
     desc: "Complete tailored bulk liquid and industrial transport solutions.",

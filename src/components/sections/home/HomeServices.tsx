@@ -115,6 +115,21 @@ export function HomeServices() {
             })}
           </div>
         </Reveal>
+
+        {/* View All Services CTA Button */}
+        <Reveal yOffset={14} delay={0.15} duration={0.45}>
+          <div className="mt-12 text-center">
+            <Link
+              href="/services"
+              className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-[#134063] hover:bg-[#b22234] text-white font-bold text-sm sm:text-base tracking-wide shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105 active:scale-95 group"
+            >
+              <span>View All Services</span>
+              <span className="transition-transform duration-300 group-hover:translate-x-1 font-bold">
+                &rarr;
+              </span>
+            </Link>
+          </div>
+        </Reveal>
       </div>
     </section>
   );

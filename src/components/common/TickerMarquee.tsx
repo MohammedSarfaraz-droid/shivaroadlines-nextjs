@@ -9,7 +9,7 @@ interface TickerMarqueeProps {
 }
 
 export function TickerMarquee({
-  text = "Transportation of LSHS - Bitumen - Lube Oil - Base Oil - Naphtha - MTO - Solvent - Hexane - Furnace Oil (FO) - Light Diesel Oil (LDO)",
+  text = "Transportation of LSHS - Bitumen - Lube Oil - Base Oil - Naphtha - MTO - Solvent - Hexane - Testrol Oil - Crude Oil - Engine Oil - Furnace Oil (FO) - Light Diesel Oil (LDO)",
   href = "/services",
   isRed = false,
   bgGradient = true,

@@ -5,6 +5,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { BackToTop } from "@/components/layout/BackToTop";
 import { MobileBottomMenu } from "@/components/layout/MobileBottomMenu";
+import { WhatsAppFloat } from "@/components/layout/WhatsAppFloat";
 
 const nunito = Nunito_Sans({
   variable: "--font-nunito",
@@ -128,6 +129,7 @@ export default function RootLayout({
         <main className="grow">{children}</main>
         <Footer />
         <BackToTop />
+        <WhatsAppFloat />
         <MobileBottomMenu />
       </body>
     </html>
