@@ -167,7 +167,7 @@ export function Header() {
                   height={72}
                   priority
                   style={{ width: "auto", height: "auto" }}
-                  className="h-11 sm:h-13 md:h-14 lg:h-16 w-auto max-w-45 xs:max-w-[210px] sm:max-w-60 md:max-w-65 lg:max-w-[270px] object-contain transition-all duration-300"
+                  className="h-11 sm:h-13 md:h-14 lg:h-16 w-auto max-w-45 xs:max-w-[210px] sm:max-w-60 md:max-w-65 lg:max-w-67.5 object-contain transition-all duration-300"
                 />
               </Link>
             </div>
