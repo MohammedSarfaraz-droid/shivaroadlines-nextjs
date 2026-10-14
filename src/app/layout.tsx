@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     siteName: "Shiva Roadlines",
     images: [
       {
-        url: "/images/logo2.webp",
+        url: "/images/logo.webp",
         width: 600,
         height: 200,
         alt: "Shiva Petroleum Logo",
